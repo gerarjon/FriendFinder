@@ -34,14 +34,14 @@ module.exports = function(app) {
 
             // Loop through the scores of the array of friends
             // Find the absolute difference between the scores of the new user
-            for (var j = 0; j < friendsArray.scores; i++) {
+            for (var j = 0; j < friendsArray[i].scores.length; j++) {
                 var difference = Math.abs(newFriend.scores[j] - friendsArray[i].scores[j]);
                 // Add the difference of each question to the total difference 
                 totalDifference += difference;
             };
 
             // The new best match will be whoever has the minimum difference
-            if (totalDifference <= minimumDifference) {
+            if (totalDifference < minimumDifference) {
                 bestMatchPosition = i;
                 minimumDifference = totalDifference;
             };
