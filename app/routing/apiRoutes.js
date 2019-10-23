@@ -37,7 +37,7 @@ module.exports = function(app) {
             for (var j = 0; j < friendsArray[i].scores.length; j++) {
                 var difference = Math.abs(newFriend.scores[j] - friendsArray[i].scores[j]);
                 // Add the difference of each question to the total difference 
-                totalDifference += difference;
+                totalDiffeçrence += difference;
             };
 
             // The new best match will be whoever has the minimum difference
