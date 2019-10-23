@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
 body {
     display: flex;
     min-height: 100vh;
@@ -6,6 +8,9 @@ body {
 }
 main {
     flex: 1 0 auto;
+}
+h1 {
+    font-family: 'Modak', cursive, 'Courier New', Courier, monospace;
 }
 .input-field input[type=text]:focus + label {
     color: #000!important;

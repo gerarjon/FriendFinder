@@ -2,7 +2,7 @@
 var friendsArray = [
     {
         name: "Gerar Suaverdez",
-        photo: "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p320x320/70326853_2494979393882212_8261953859732111360_n.jpg?_nc_cat=103&_nc_oc=AQl4RItDEGos9ZoTj6Dt9DeKuhRXt2GTHFL_DyYUWUoKB4zjUUXPXVzcCe7dpPDGm4c&_nc_ht=scontent-sea1-1.xx&oh=1846dfcc59e655bc6cf6feebee8af82e&oe=5E2151BB",
+        photo: "https://cdn.discordapp.com/attachments/509606649292521487/628080014063173632/71259287_539184070238750_7605855179581161472_n.png",
         scores: [
             1,
             2,
@@ -18,7 +18,7 @@ var friendsArray = [
     },
     {
         name: "Ahmed",
-        photo: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        photo: "https://www.fasodansetheatre.com/wp-content/uploads/2017/06/ahmed-portrait.jpg",
         scores: [
             5,
             1,
@@ -46,6 +46,70 @@ var friendsArray = [
             5,
             3,
             4
+        ]
+    },
+    {
+        name: "Dep Trai King",
+        photo: "https://cdn.discordapp.com/attachments/151940309780004866/636047554341109762/deptrai.png",
+        scores: [
+            2,
+            3,
+            4,
+            4,
+            5,
+            3,
+            5,
+            4,
+            1,
+            5
+        ]
+    },
+    {
+        name: "Melanie Iglesias",
+        photo: "https://pbs.twimg.com/media/DmdNP9bUcAAeADY.jpg",
+        scores: [
+            4,
+            2,
+            5,
+            5,
+            1,
+            3,
+            3,
+            4,
+            2,
+            5
+        ]
+    },
+    {
+        name: "Martin Luther King Jr.",
+        photo: "https://cdn.discordapp.com/attachments/509606649292521487/542875415375773757/image0.png",
+        scores: [
+            2,
+            4,
+            3,
+            3,
+            4,
+            4,
+            1,
+            5,
+            3,
+            4
+        ]
+    },
+    {
+        name: "Goose",
+        photo: "https://cdn.discordapp.com/attachments/276622145520664587/448349038644035584/kwmsXwv.jpg",
+        scores: [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1
         ]
     }
 ]
