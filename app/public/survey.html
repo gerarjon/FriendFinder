@@ -42,7 +42,7 @@
                 <!-- Photo -->
                 <div class="input-field col s12 m6">
                     <i class="material-icons prefix">picture_in_picture</i>
-                    <input type="text" class="validate" placeholder="Photo Link Here" id="userPhoto">
+                    <input type="url" class="validate" placeholder="Photo Link Here" id="userPhoto">
                     <label for="userPhoto">Link to Photo Image (Required)</label>
                 </div>
                 <!-- Survey Questions -->
@@ -234,7 +234,7 @@
 
             if ($("#userName").val() === "" || $("#userPhoto").val() === "") {
                 isValid = false;
-            } else if ($("#question1").val() === "" || $("#question2").val() === "" || $("#question3").val() === "" || $("#question4").val() === "" || $("#question5").val() === "" || $("#question6").val() === "" || $("#question7").val() === "" || $("#question8").val() === "" || $("#question9").val() === "" || $("#question10").val() === "") {
+            } else if ($("#question1").val() === null || $("#question2").val() === null || $("#question3").val() === null || $("#question4").val() === null || $("#question5").val() === null || $("#question6").val() === null || $("#question7").val() === null || $("#question8").val() === null || $("#question9").val() === null || $("#question10").val() === null) {
                 isValid = false;
             }
 
