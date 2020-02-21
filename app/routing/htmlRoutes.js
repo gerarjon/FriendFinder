@@ -1,5 +1,5 @@
 // Dependecies 
-var path = require("path");
+const path = require("path");
 
 // Export HTML routes
 module.exports = function(app) {

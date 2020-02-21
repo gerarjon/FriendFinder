@@ -1,5 +1,5 @@
 // Requiring data
-var friendsArray = require('../data/friends.js');
+const friendsArray = require('../data/friends.js');
 
 // Routing
 module.exports = function(app) {
@@ -28,14 +28,14 @@ module.exports = function(app) {
         var minimumDifference = 40;
 
         // Loop through the friends array
-        for (var i = 0; i < friendsArray.length; i++) {
+        for (let i = 0; i < friendsArray.length; i++) {
             // initial total differdnce is 0 
-            var totalDifference = 0;
+            let totalDifference = 0;
 
             // Loop through the scores of the array of friends
             // Find the absolute difference between the scores of the new user
-            for (var j = 0; j < friendsArray[i].scores.length; j++) {
-                var difference = Math.abs(newFriend.scores[j] - friendsArray[i].scores[j]);
+            for (let j = 0; j < friendsArray[i].scores.length; j++) {
+                let difference = Math.abs(newFriend.scores[j] - friendsArray[i].scores[j]);
                 // Add the difference of each question to the total difference 
                 totalDifference += difference;
             };

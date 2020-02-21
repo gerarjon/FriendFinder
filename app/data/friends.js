@@ -1,5 +1,5 @@
 // Data containing all matchable friends
-var friendsArray = [
+const friendsArray = [
     {
         name: "Gerar Suaverdez",
         photo: "https://cdn.discordapp.com/attachments/509606649292521487/628080014063173632/71259287_539184070238750_7605855179581161472_n.png",
